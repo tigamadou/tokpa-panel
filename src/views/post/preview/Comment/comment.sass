@@ -1,0 +1,48 @@
+.comment-wrapper
+    display: flex
+    flex-direction: column
+.comment
+    display: flex
+    justify-content: flex-start
+    align-content: flex-start
+    gap: 8px
+    margin-bottom: 10px
+    .comment-wrapper
+        .comment-details
+            padding: 8px
+            background: #f5f6f8
+            border-radius: 8px
+            .comment-author
+                font-weight: bold
+                margin-right: 8px
+        .comment-footer
+            display: flex
+            font-size: 11px
+            color: #8c8c8c
+            gap: 8px
+            font-weight: 700
+            .comment-footer-date
+                font-weight: normal
+
+
+.comment-reply
+    align-self: flex-start
+    cursor: pointer
+.reply
+    margin-left: 32px
+    .reply-input input[type="text"]
+        background: #f1f1f1
+        border-radius: 8px
+
+
+.rounded-circle
+  object-fit: cover
+
+.center-comments
+    object-fit: cover
+    height: 40px
+    width: 40px
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
